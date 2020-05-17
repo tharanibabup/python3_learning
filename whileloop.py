@@ -7,7 +7,7 @@ retryCounter = 0
 while (pw != secretword and retryCounter < 3):
     pw = input('What is secret word ?')
     if pw == secretword:
-        print('Congratulations ! \n You are unlocked the door')
+        print('Congratulations ! \nYou are unlocked the door')
         break
     else:
         print('Code not matching')
